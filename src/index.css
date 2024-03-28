@@ -1,0 +1,38 @@
+body {
+  background-color: #151515;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  height: 100%;
+  width: 100px;
+}
+
+h1 {
+  color: white;
+}
+
+.sub-page {
+  display: flex;
+  height: calc(100vh - 80px);
+  background-color: beige;
+  font-size: 32px;
+}
+
+.page-title {
+  position: absolute;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.header-buttons {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  gap: 20px;
+}
